@@ -1,4 +1,4 @@
-# Contribution guidelines
+##Contribution guidelines
 
 First of all, thanks for thinking of contributing to this project. :smile:
 
@@ -20,3 +20,4 @@ While making a Pull Request, please take care of the following rules:
 Any other doubts/questions can be posted as an issue on this repository by using the `doubt` label function.
 
 Thanks again for contributing to this project :heart:
+ 
