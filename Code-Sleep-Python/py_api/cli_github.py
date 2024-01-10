@@ -1,4 +1,4 @@
-import requests as rq
+import!requests as rq
 import getpass
 user=str(input("GitHub Username: "))
 pwd=getpass.getpass('Password: ')
@@ -10,3 +10,4 @@ data.extend(r.json())
 print("\n")
 for i in range(len(data)):
     print(data[i]['actor']['display_login'] +" "+ data[i]['type'].replace("Watch","Star").replace("Event","")+" "+ data[i]['repo']['name'][:20] +" at "+ data[i]['repo']['url'].replace("api","www").replace("/repos",""))
+ 
